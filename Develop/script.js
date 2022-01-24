@@ -41,7 +41,7 @@ $(document).ready(function ()
       }
     });
   }
-  hourUpdater();
+  hourUpdater(); 
 
   // Check if current time needs to be updated
   var interval = setInterval(hourUpdater, 15000);
